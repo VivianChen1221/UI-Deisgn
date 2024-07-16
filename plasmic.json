@@ -1,0 +1,175 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "5aogq6jpANvRfZVcqk3ovM",
+      "projectApiToken": "WLOrPTQxpmgRGtp70NNaixO1xQ7tCTTAkZeSxGjC2SWqmkVU6fSHvoM0a3vPaZMGVmZOrb5KV2DdsgMmQT1Q",
+      "projectName": "Instant Capture- Launching Page",
+      "version": "latest",
+      "cssFilePath": "plasmic/instant_capture_launching_page/plasmic.module.css",
+      "components": [
+        {
+          "id": "OtWiZezfP5Zh",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "5aogq6jpANvRfZVcqk3ovM",
+          "renderModuleFilePath": "plasmic/instant_capture_launching_page/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/instant_capture_launching_page/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "iD4oiPqdGNb9",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "5aogq6jpANvRfZVcqk3ovM",
+          "renderModuleFilePath": "plasmic/instant_capture_launching_page/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/instant_capture_launching_page/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        }
+      ],
+      "icons": [
+        {
+          "id": "YuAb_P8XrcXQ",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/instant_capture_launching_page/icons/PlasmicIcon__Checksvg.jsx"
+        },
+        {
+          "id": "ZGeebJCm7gFd",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/instant_capture_launching_page/icons/PlasmicIcon__Icon.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "NtAmf46BLtTu",
+          "name": "Beige and Black Minimalist Skincare Logo.png",
+          "filePath": "../public/plasmic/instant_capture_launching_page/images/beigeAndBlackMinimalistSkincareLogopng.png"
+        },
+        {
+          "id": "aNjALD-14jXh",
+          "name": "image",
+          "filePath": "../public/plasmic/instant_capture_launching_page/images/image.svg"
+        },
+        {
+          "id": "XqEcaVtutq9q",
+          "name": "Blue Modern Mobile Application Presentation.png",
+          "filePath": "../public/plasmic/instant_capture_launching_page/images/blueModernMobileApplicationPresentationpng.png"
+        },
+        {
+          "id": "PyqrSyH8mmCJ",
+          "name": "Untitled design (1).png",
+          "filePath": "../public/plasmic/instant_capture_launching_page/images/untitledDesign1Png.png"
+        },
+        {
+          "id": "mTL0d4uIx5Lc",
+          "name": "Untitled design.png",
+          "filePath": "../public/plasmic/instant_capture_launching_page/images/untitledDesignpng.png"
+        },
+        {
+          "id": "2TMI5DnNvEBv",
+          "name": "Blue Modern Mobile Application Presentation (1).png",
+          "filePath": "../public/plasmic/instant_capture_launching_page/images/blueModernMobileApplicationPresentation1Png.png"
+        },
+        {
+          "id": "fESOnTLPvJVm",
+          "name": "image 2",
+          "filePath": "../public/plasmic/instant_capture_launching_page/images/image2.png"
+        },
+        {
+          "id": "klp_5UgPnnjs",
+          "name": "image 3",
+          "filePath": "../public/plasmic/instant_capture_launching_page/images/image3.png"
+        },
+        {
+          "id": "y_o82Tl_QnS5",
+          "name": "image 4",
+          "filePath": "../public/plasmic/instant_capture_launching_page/images/image4.png"
+        },
+        {
+          "id": "wC40UB8ay29Z",
+          "name": "image 5",
+          "filePath": "../public/plasmic/instant_capture_launching_page/images/image5.png"
+        },
+        {
+          "id": "og3jSUXbmZ5I",
+          "name": "image 6",
+          "filePath": "../public/plasmic/instant_capture_launching_page/images/image6.png"
+        },
+        {
+          "id": "jAuVu34B4y-a",
+          "name": "image 7",
+          "filePath": "../public/plasmic/instant_capture_launching_page/images/image7.png"
+        },
+        {
+          "id": "wwb0qfQjYjZu",
+          "name": "image 8",
+          "filePath": "../public/plasmic/instant_capture_launching_page/images/image8.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "B5oa9FFIB_2G",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "Zf2AwuGkWG88",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "jAu_PUj_xUwo",
+        "name": "Screen",
+        "projectId": "5aogq6jpANvRfZVcqk3ovM",
+        "contextFilePath": "plasmic/instant_capture_launching_page/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.330",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.330/dist/plasmic.schema.json"
+}
